@@ -665,6 +665,7 @@ iframe {
     width: 100%;
     cursor: pointer;
     display: block;
+    text-align: center;
 }
 
 .plan a:active {
