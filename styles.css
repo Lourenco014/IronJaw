@@ -656,7 +656,8 @@ iframe {
     margin: 15px 0;
 }
 
-.plan button {
+.plan a{
+    color: var(--button-title);
     padding: 15px;
     background-color: var(--gray-bg);
     border: 1px solid var(--sec-text);
@@ -665,22 +666,16 @@ iframe {
     cursor: pointer;
 }
 
-.plan button a{
-    color: var(--button-title);
-    transition: 0.2s ease;
-
-}
-
-.plan button:active {
+.plan a:active {
     transform: scale(0.9);
 }
 
-.plan button:hover {
+.plan a:hover {
     --button-title: #F5A623;
     --sec-text: #F5A623;
 }
 
-.premium button:hover {
+.premium a:hover {
     --button-title: #F5A623;
     --gray-bg: #0a0a0a;
     --sec-text: #0a0a0a;
