@@ -10,6 +10,9 @@ sr.reveal('.nav', {
     origin: 'top',
 });
 
+sr.reveal('.statistics li', {
+    origin: 'top'
+});
 sr.reveal('.section-description');
 sr.reveal('.section-title', {
     delay: 400
