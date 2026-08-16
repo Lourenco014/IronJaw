@@ -161,7 +161,6 @@ strong {
     grid-template-columns: repeat(2, auto);
     width: 100%;
     justify-content: space-between;
-    align-items: center;
     z-index: 10;
     transition: 0.5s ease;
     box-shadow: none;
@@ -197,7 +196,7 @@ strong {
     display: flex;
     background-color: var(--main-bg);
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     position: absolute;
     top: 0;
     right: 0;
@@ -815,8 +814,11 @@ footer .footer_socials {
         width: auto;
         padding: 10px;
         background-color: transparent;
+        justify-content: space-between;
+        align-items: center;
         transform: translateX(0);
         position: static;
+        gap: 10px;
     }
 
     .nav .menu {
